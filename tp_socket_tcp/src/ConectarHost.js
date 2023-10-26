@@ -1,7 +1,7 @@
 const net = require('net');
 
-const host = 'example.com'; // Reemplaza con el host al que deseas conectarte
-const port = 80; // Puerto de ejemplo, puedes cambiarlo según tus necesidades
+const host = ''; // Reemplaza con el host al que deseas conectarte
+const port = 80; // Puerto por defecto, puedes cambiarlo
 
 const client = new net.Socket();
 

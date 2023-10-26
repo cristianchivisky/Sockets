@@ -1,7 +1,7 @@
 const net = require('net');
 const readline = require('readline');
 
-const host = 'ip_de_la_maquina_linux'; // Reemplaza con la dirección IP de tu máquina Linux
+const host = ''; // Reemplaza con la dirección IP de tu máquina
 const port = 7; // Puerto 7 se utiliza para el protocolo "echo"
 
 const client = new net.Socket();

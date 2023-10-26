@@ -35,7 +35,7 @@ const server = net.createServer((socket) => {
 });
 
 // Escuchar en un puerto específico
-const port = 3000; // Puedes cambiar el puerto
+const port = 3000; // Se puede cambiar el puerto
 server.listen(port, () => {
   console.log(`Servidor escuchando en el puerto ${port}`);
 });

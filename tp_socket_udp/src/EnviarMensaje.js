@@ -1,4 +1,5 @@
 const dgram = require('dgram');
+//Agregué aca la clase MSSP porque no me la importaba
 
 class MSSP {
   constructor(id_mensaje, secuencia, mensaje) {
@@ -46,7 +47,7 @@ class MSSP {
 }
 const client = dgram.createSocket('udp4');
 
-const host = '127.0.0.1'; // Cambia esto por la dirección del host de destino
+const host = 'LocalHost'; // Cambia esto por la dirección del host de destino
 const port = 80; // Cambia esto por el puerto de destino
 
 // Crear una instancia de MSSP con ID 8, secuencia 1 y un mensaje

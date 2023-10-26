@@ -1,7 +1,7 @@
 const net = require('net');
 
-const host = 'ip_de_la_maquina_linux'; // Reemplaza con la dirección IP de tu máquina Linux
-const port = 13; // Puerto 13 generalmente se usa para el protocolo "daytime"
+const host = ''; // Reemplaza con la dirección IP de tu máquina 
+const port = 13; // Puerto 13 se usa para el protocolo "daytime"
 
 const client = new net.Socket();
 

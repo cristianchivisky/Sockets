@@ -1,7 +1,7 @@
 const net = require('net');
 
 const hostLocal = 'localhost';
-const hostLinuxLab = 'ip_de_la_maquina_linux'; // Reemplaza con la dirección IP de la máquina Linux en el laboratorio
+const hostLinuxLab = ''; // Reemplaza con la dirección IP de la máquina 
 
 // Función para verificar la conexión a un puerto en un host
 function checkPort(host, port) {
@@ -22,7 +22,7 @@ for (let port = 1; port <= 1024; port++) {
   checkPort(hostLocal, port);
 }
 
-// Verificar puertos en la máquina Linux del laboratorio
+// Verificar puertos en la máquina 
 for (let port = 1; port <= 1024; port++) {
   checkPort(hostLinuxLab, port);
 }
